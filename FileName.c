@@ -18,7 +18,7 @@ double Q(double X) {
 int main() {
 	setlocale(LC_ALL, "RUS");
 	double X;
-	printf("Введите X: ");
+	printf("Р’РІРµРґРёС‚Рµ X: ");
 	scanf("%1f", &X);
 	printf("Q(%.2f) = %.4f\n", X, Q(X));
 	return 0;
